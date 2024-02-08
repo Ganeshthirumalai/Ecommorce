@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.navbar-links{
+    display: flex;
+    padding: 20px;
+    column-gap:20px ;
+
+}
+.navbar-links a{
+    text-decoration: none;
+    color: grey;
+}
+.navbar-links a:hover{
+    text-decoration: underline;
+    color: grey;
+
+
+}
+.navbar-menu-toggle{
+    display: none;
+}
+@media screen and (max-width:700px) {
+ 
+    .navbar-menu-toggle{
+    display: block;
+    
+}
+.navbar-links{
+    display: none;
+    
+}
+.header-image{
+    display:none
+}
+
+}
+.side-navbar{
+    background-color:darkgray;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    color: white;
+    transition: 2s;
+    
+}
+.side-navbar-link{
+    margin-bottom: 10px;
+}
+.side-navbar-links a{
+    text-decoration: none;
+    color: white;
+
+}
+.side-navbar-links a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.header{
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+}
+.header button{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.service{
+    padding: 20px;
+}
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-container-2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+    .service-container-2 div{
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    
+}
+.new-arrival{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+}
+.new-arrival button{
+    padding-left: 10%;
+    padding-right:10% ;padding-top: 5%;
+    padding-bottom: 5%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    border-radius: 10px;
+    background-origin:10px;
+    border: none;
+
+
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.news input{
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border: solid black 3px;
+
+}
+.news button{
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+.footer{
+    background-color: rgb(11, 8, 8);
+    color: rgb(249, 246, 246);
+}
+.footer-container{
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+.product section{
+    margin-top: 20px;
+}
+.product-search{
+    width: 80%;
+    border: solid black 2px;
+    border-radius:20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+.product-search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+
+}
+.product-search input:focus{
+    outline: none;
+}
+.product{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contact-nostra{
+    align-items: center;
+    left:30%
+
+}
+.contact{
+    background-color: rgb(10, 1, 1);
+    color: white;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-top: 15px;
+    width: 60%;
+    margin-left: 18%;
+    margin-bottom: 120px;
+        
+}
+.contact input{
+    padding-top: 20px;
+    padding-right: 80%;
+    
+}
+.contact textarea{
+    padding-top: 20px;
+    padding-right: 80%;
+
+}
+.contact button{
+    background-color: rgb(42, 42, 242);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+}
+@media screen and (max-width:700px){
+ .service-container-1{
+    display: none;
+ }
+ .service-container-2{
+    flex-direction: column;
+ }
+    
+}
+
+

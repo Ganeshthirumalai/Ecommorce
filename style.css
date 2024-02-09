@@ -210,12 +210,12 @@ body{
 }
 .contact input{
     padding-top: 20px;
-    padding-right: 40%;
+    width: 100%;
     
 }
 .contact textarea{
     padding-top: 20px;
-    padding-right: 40%;
+    width: 100%;
 
 }
 .contact button{

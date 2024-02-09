@@ -210,12 +210,12 @@ body{
 }
 .contact input{
     padding-top: 20px;
-    padding-right: 40%;
+    padding-right: 80%;
     
 }
 .contact textarea{
     padding-top: 20px;
-    padding-right: 40%;
+    padding-right: 80%;
 
 }
 .contact button{
@@ -234,6 +234,14 @@ body{
  .service-container-2{
     flex-direction: column;
  }
+    .contact input{
+    padding-top: 20px;
+    padding-right: 40%;
+    
+}
+.contact textarea{
+    padding-top: 20px;
+    padding-right: 40%;
     
 }
 
